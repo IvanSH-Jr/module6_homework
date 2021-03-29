@@ -1,5 +1,5 @@
 //Задание 1
-/*
+
 function parityCounter(){
     let someArr = [1, 2, 'privet', 3, 2, null, 6, 0, '-', '44' ]
     let evenCounter = 0
@@ -20,7 +20,7 @@ function parityCounter(){
 }
 
 parityCounter()
-*/
+
 
 //Задание 2
 /*numberType(prompt('Введите значение'))
@@ -78,5 +78,17 @@ setInterval(() => { clearInterval(stopProg)
     
 }, 1000);*/
 
-//Задание 5
 
+/*
+//Задание 5
+  const xINn = (value1, value2) => {
+     
+      if(value1 < 0 ){
+          return console.log('Действительное число')
+      }
+      const result = Math.pow(value1, value2)
+      return result
+  }
+
+  const seeSomeResult = xINn(125, 5)
+  console.log(seeSomeResult)*/
